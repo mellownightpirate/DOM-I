@@ -124,3 +124,16 @@ const careers = document.createElement('a'); {
 
 navBar.forEach(element => {element.style.color = 'green'})
 
+// Change CTA text header to green
+
+document.querySelector(".cta-text h1").style.color="green";
+console.log(newAnchorLast);
+
+// Adding click event listener background color changes to red
+
+// let buttonClick = document.querySelector('.cta .cta-text button');
+// buttonClick.innerText = 'Get Started';
+
+// buttonClick.addEventListener('click', (n) => {
+//   n.target.style.backgroundColor = 'red';
+// });
